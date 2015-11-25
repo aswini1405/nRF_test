@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+	android:id="@+id/relative_layout_control"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".MainActivity">
+
+	<android.support.design.widget.AppBarLayout
+		android:id="@+id/appbar_layout"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:theme="@style/AppTheme.AppBarOverlay">
+
+		<android.support.v7.widget.Toolbar
+			android:id="@+id/toolbar"
+			android:layout_width="match_parent"
+			android:layout_height="?attr/actionBarSize"
+			android:background="?attr/colorPrimary"
+			app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+	</android.support.design.widget.AppBarLayout>
+
+	<View
+		android:id="@+id/background_view"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="@color/background_yellow"
+		android:visibility="invisible"/>
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_below="@+id/appbar_layout"
+		android:layout_above="@+id/button_blinky"
+		android:layout_marginBottom="16dp"
+		android:layout_marginTop="16dp">
+
+		<ImageView
+			android:id="@+id/img_bulb"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:layout_gravity="center"
+			android:scaleType="centerInside"
+			android:src="@drawable/bulb_off"/>
+	</RelativeLayout>
+
+	<Button
+		android:id="@+id/button_blinky"
+		android:layout_width="200dp"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_marginBottom="40dp"
+		android:layout_above="@+id/action_connect"
+		android:background="@drawable/rounded_button"
+		android:gravity="center"
+		android:text="@string/turn_on"
+		android:textColor="@color/textColorWhite"/>
+
+	<Button
+		android:id="@+id/action_connect"
+		style="@style/Widget.Connect"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"
+		android:layout_marginBottom="@dimen/activity_vertical_margin_bottom"
+		android:text="@string/action_connect"/>
+
+	<ImageView
+		android:id="@+id/img_background_title"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"
+		android:layout_marginBottom="6dp"
+		android:scaleType="center"
+		android:src="@drawable/background_title"/>
+</RelativeLayout>

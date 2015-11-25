@@ -1,4 +1,4 @@
-package com.velolabs.nrf_test;
+package com.velolabs.nrf_test.service;
 
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;

@@ -5,7 +5,7 @@ A Simple BLE Scanner application built in for Arduino boards (i.e. <a href="http
 ***
 How it works? <br>
 <br>
-Make sure to keep arduino works ready. <br>
+Make sure to keep arduino stuffed-up ready. <br>
 Connect to mobile device. <br>
 Start the application and Start Scanning. <br>
 Stop scanning if it's done.
@@ -40,8 +40,8 @@ dependencies {
 }
 ```
 ***
-<b>Problems:</b>
-![]()
+<b>Problems:</b><br>
+![](https://github.com/aswini1405/nRF_test/blob/master/miscellaneous/1.jpg)
 <br><br>
-![]()
+![](https://github.com/aswini1405/nRF_test/blob/master/miscellaneous/2.jpg)
 ***

@@ -1,9 +1,23 @@
 <b>nRF_test</b>
 ***
-A Simple Blink LED application built in on Arduino board (i.e. <a href="https://www.arduino.cc/en/ArduinoCertified/IntelGalileoGen2">Intel Galileo Generation 2</a>) using <a href="https://github.com/NordicSemiconductor/nRF-Master-Control-Panel">nRF master control panel</a> and tested using <a href="https://en.wikipedia.org/wiki/Android_(operating_system)">Android</a>.
+A Simple BLE Scanner application built in for Arduino boards (i.e. <a href="https://www.arduino.cc/en/ArduinoCertified/IntelGalileoGen2">Intel Galileo Generation 2</a> and others) using <a href="https://github.com/NordicSemiconductor/nRF-Master-Control-Panel">nRF master control panel</a> and tested using <a href="https://en.wikipedia.org/wiki/Android_(operating_system)">Android</a>.
+***
+***
+How it works? <br>
+<br>
+Make sure to keep arduino works ready. <br>
+Connect to mobile device. <br>
+Start the application and Start Scanning. <br>
+Stop scanning if it's done.
 ***
 ```
-Requirements:
+Requirements for using the app:
+
+Android phone (minimum 4.3)
+Arduino board, breadboard, wires
+```
+```
+Requirements for building from source:
 
 JDK 1.8 (Java 8)
 Android Studio IDE 1.5
@@ -25,3 +39,9 @@ dependencies {
     compile 'com.android.support:design:23.0.1'
 }
 ```
+***
+<b>Problems:</b>
+![]()
+<br><br>
+![]()
+***

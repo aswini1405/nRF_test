@@ -39,9 +39,3 @@ dependencies {
     compile 'com.android.support:design:23.0.1'
 }
 ```
-***
-<b>Problems:</b><br>
-![](https://github.com/aswini1405/nRF_test/blob/master/miscellaneous/1.jpg)
-<br><br>
-![](https://github.com/aswini1405/nRF_test/blob/master/miscellaneous/2.jpg)
-***
